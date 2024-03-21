@@ -1,0 +1,37 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card {
+  margin: 0 auto;
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+
+.task-name,
+.task-date,
+.description-text{
+  display:flex
+}
+
+form{
+  display: flex;
+  flex-flow: column;
+}
+
+.modal-body form .mb-3{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.modal-footer .btn-primary{
+  background-color: #198754;
+}
